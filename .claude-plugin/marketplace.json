@@ -1,0 +1,35 @@
+{
+  "name": "echomodel",
+  "owner": {
+    "name": "echomodel"
+  },
+  "plugins": [
+    {
+      "name": "claude-coding",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/echomodel/claude-coding.git",
+        "path": "plugin/dist",
+        "ref": "v0.2.3"
+      },
+      "description": "Coding agent with privacy-gated commits and skill composition."
+    },
+    {
+      "name": "plugin-creator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/echomodel/claude-plugin-creator.git"
+      },
+      "description": "Scaffold Claude Code plugins with self-installing local MCP servers and guide ongoing plugin authorship."
+    },
+    {
+      "name": "gapp",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/echomodel/gapp.git",
+        "ref": "v1.4.0"
+      },
+      "description": "Deploy Python MCP servers to Cloud Run with guided lifecycle, CI/CD, custom domains, and secret management"
+    }
+  ]
+}
