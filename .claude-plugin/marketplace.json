@@ -7,12 +7,11 @@
     {
       "name": "claude-coding",
       "source": {
-        "source": "git-subdir",
+        "source": "url",
         "url": "https://github.com/echomodel/claude-coding.git",
-        "path": "plugin/dist",
-        "ref": "v0.2.4"
+        "ref": "v0.3.0"
       },
-      "description": "Coding agent with privacy-gated commits and skill composition."
+      "description": "Coding agent with privacy-gated commits."
     },
     {
       "name": "plugin-creator",
