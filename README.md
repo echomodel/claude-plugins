@@ -14,7 +14,6 @@ After that the marketplace is registered locally as `echomodel`.
 
 | Plugin | Description | Install |
 |--------|-------------|---------|
-| [claude-coding](https://github.com/echomodel/claude-coding) | Coding agent with privacy-gated commits, session lifecycle, and skill composition | `claude plugin install claude-coding@echomodel --scope user` |
 | [plugin-creator](https://github.com/echomodel/claude-plugin-creator) | Scaffold Claude Code plugins with self-installing local MCP servers and guide ongoing plugin authorship. Install at `--scope project` in a plugin's repo so its patterns guidance is loaded only when working on that plugin. | `claude plugin install plugin-creator@echomodel --scope project` |
 | [gapp](https://github.com/echomodel/gapp) | Deploy Python MCP servers to Cloud Run with guided lifecycle, CI/CD, custom domains, and secret management | `claude plugin install gapp@echomodel --scope user` |
 

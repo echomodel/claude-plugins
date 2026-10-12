@@ -5,15 +5,6 @@
   },
   "plugins": [
     {
-      "name": "claude-coding",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/echomodel/claude-coding.git",
-        "ref": "v0.4.0"
-      },
-      "description": "Coding agent with privacy-gated commits."
-    },
-    {
       "name": "plugin-creator",
       "source": {
         "source": "url",
